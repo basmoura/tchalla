@@ -49,6 +49,7 @@ end
 
 group :test do
   gem 'database_cleaner-active_record'
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
